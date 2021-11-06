@@ -170,3 +170,54 @@ h3 {
 
 
 /* CALL TO ACTION SECTION RULES */
+
+.call-to-action-section {
+    color: #f9faf8;
+}
+
+.call-to-action-box {
+    background-color: #3882f6;
+}
+
+.call-to-action-wrapper {
+    margin: 85px 170px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5% 0;
+}
+
+.call-to-action-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-weight: bold;
+    font-size:xx-large;
+    padding-bottom: 0.1em;
+}
+
+.call-to-action-subtext {
+    font-size: large;
+}
+
+.sign-up {
+    border: solid #f9faf8;
+    border-radius: 10px;
+    padding: 20px 75px 10px 75px;
+}
+
+
+
+/* FOOTER SECTION RULES */
+
+footer {
+   display: flex;
+   justify-content: center; 
+}
+
+.footer-text{
+    color: #f9faf8;
+    padding: 2em 0;
+}
